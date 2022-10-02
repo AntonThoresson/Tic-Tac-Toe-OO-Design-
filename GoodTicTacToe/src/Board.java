@@ -6,7 +6,6 @@ public class Board {
 	
 	
 	public Board(int rows, int cols) {
-		super();
 		this.rows = rows;
 		this.cols = cols; 
 		this.board = new char[rows][cols];

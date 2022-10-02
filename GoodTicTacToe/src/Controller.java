@@ -2,7 +2,6 @@
 public class Controller {
 	private View view;
 	private Player player;
-	private RuleEngine ruleEngine;
 	
 	public Controller() {
 		player = new Player(this);
